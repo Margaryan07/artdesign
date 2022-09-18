@@ -1,11 +1,11 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
+import CButton from "../../components/CButton/CButton";
 
 
 const Login = () => {
     return(
    <div>
-    Login
+    <CButton w={"1000px"} h={"100"}>LOgin</CButton>
    </div>
     )
 }
